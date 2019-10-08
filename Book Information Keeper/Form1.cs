@@ -24,11 +24,6 @@ namespace Book_Information_Keeper
         private void addButton_Click(object sender, EventArgs e)
         {
           
-
-                    
-
-
-
                 string isbnNumber = isbnTextBox.Text;
                 long isbn = long.Parse(isbnNumber);
                 if (isbnNumber.Length != 13)
